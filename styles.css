@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 /* Estilos generales */
 body {
   font-family: "Arial", sans-serif;
@@ -51,6 +52,15 @@ section {
   max-width: 800px;
 }
 
+.about {
+  background-color: #fef7ea;
+  border-radius: 10px;
+}
+.about p {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .projects {
   background-color: #f5e6d3;
   border-radius: 10px;
@@ -83,7 +93,19 @@ section {
   object-fit: cover; /* Ensures the image fits nicely */
 }
 
+.card h3 {
+  padding: 1rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
 .card p {
+  padding: 1rem;
+  font-family: "Roboto", monospace;
+  font-size: 1rem;
+  font-weight: 700;
   margin: 0.5rem 0 0;
   white-space: normal; /* Allow wrapping */
   overflow: visible; /* Ensure all text is visible */
