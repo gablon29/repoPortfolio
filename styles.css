@@ -1,0 +1,150 @@
+/* Estilos generales */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  color: #333;
+  background-color: #fdf8f3;
+}
+
+h1,
+h2,
+h3 {
+  color: #8c6239;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Encabezado */
+.header {
+  background-color: #d9b382;
+  text-align: center;
+  padding: 2rem 0;
+  color: #fff;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0;
+}
+
+/* Secciones */
+section {
+  padding: 2rem;
+  margin: 1.5rem auto;
+  max-width: 800px;
+}
+
+.projects {
+  background-color: #f5e6d3;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  width: 220px; /* Reduce slightly to make cards smaller */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card img {
+  border-bottom: 5px solid #d9b382;
+  width: 100%;
+  height: 150px; /* Limit height for uniformity */
+  object-fit: cover; /* Ensures the image fits nicely */
+}
+
+.card p {
+  margin: 0.5rem 0 0;
+  white-space: normal; /* Allow wrapping */
+  overflow: visible; /* Ensure all text is visible */
+  text-overflow: unset; /* Remove ellipsis */
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Artículos */
+.articles {
+  background-color: #fef7ea;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.article-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+article {
+  flex: 1 1 250px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+article:hover {
+  transform: translateY(-10px);
+}
+
+/* Footer */
+.footer {
+  background-color: #8c6239;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin: 0.5rem 0;
+}
+
+.footer a {
+  color: #fdf8f3;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #d9b382;
+}
