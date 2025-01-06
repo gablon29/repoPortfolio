@@ -104,7 +104,7 @@ section {
 .card p {
   padding: 1rem;
   font-family: "Roboto", monospace;
-  font-size: 1rem;
+  font-size: 12px;
   font-weight: 700;
   margin: 0.5rem 0 1rem;
   white-space: normal; /* Allow wrapping */
@@ -123,6 +123,18 @@ section {
   margin: 0px;
   transition: background-color 0.3s ease;
   margin-top: auto; /* Push the link to the bottom */
+}
+
+.growth {
+  background-color: #f5e6d3;
+  border-radius: 10px;
+  padding: 2rem;
+}
+.growth p {
+  font-size: 1.1rem;
+  font-weight: 200;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Artículos */
