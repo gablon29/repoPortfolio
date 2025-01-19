@@ -94,19 +94,17 @@ section {
 }
 
 .card h3 {
-  padding: 1rem;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 700;
-  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 4px;
 }
 
 .card p {
-  padding: 1rem;
   font-family: "Roboto", monospace;
   font-size: 12px;
   font-weight: 700;
-  margin: 0.5rem 0 1rem;
+  margin: 0.5rem 1rem;
   white-space: normal; /* Allow wrapping */
   overflow: visible; /* Ensure all text is visible */
   text-overflow: unset; /* Remove ellipsis */
@@ -123,6 +121,29 @@ section {
   margin: 0px;
   transition: background-color 0.3s ease;
   margin-top: auto; /* Push the link to the bottom */
+}
+
+.card a:hover {
+  background-color: #d9b382;
+  color: #fff;
+}
+
+.github {
+  background-color: #272624;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.github h2 {
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+.github img {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
 }
 
 .growth {
